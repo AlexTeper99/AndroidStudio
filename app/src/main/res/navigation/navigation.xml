@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.practica1.fragments.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_cryptoListFragment"
+            app:destination="@id/cryptoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cryptoListFragment"
+        android:name="com.example.practica1.fragments.CryptoListFragment"
+        android:label="fragment_crypto_list"
+        tools:layout="@layout/fragment_crypto_list" />
+</navigation>
