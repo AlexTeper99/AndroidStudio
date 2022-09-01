@@ -30,15 +30,13 @@ class Login : Fragment() {
         txtLabel = v.findViewById(R.id.txtLabel)
         btnSend = v.findViewById(R.id.btnSend)
 
-
-
         return v
     }
 
     override fun onStart() {
         super.onStart()
         btnSend.setOnClickListener {
-            val action12 = LoginDirections.actionLoginToCryptoListFragment()
+            val action12 = LoginDirections.actionLoginToCryptoListFragment("Alex")
             v.findNavController().navigate(action12)
         }
     }

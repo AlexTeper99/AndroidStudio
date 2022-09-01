@@ -18,5 +18,9 @@
         android:id="@+id/cryptoListFragment"
         android:name="com.example.practica1.fragments.CryptoListFragment"
         android:label="fragment_crypto_list"
-        tools:layout="@layout/fragment_crypto_list" />
+        tools:layout="@layout/fragment_crypto_list" >
+        <argument
+            android:name="text"
+            app:argType="string" />
+    </fragment>
 </navigation>

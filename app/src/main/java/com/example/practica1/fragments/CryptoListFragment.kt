@@ -13,6 +13,7 @@ class CryptoListFragment : Fragment() {
 
     lateinit var v: View
     private lateinit var txtTitle : TextView
+    private lateinit var recivedData : String
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -20,10 +21,11 @@ class CryptoListFragment : Fragment() {
     ): View? {
         v = inflater.inflate(R.layout.fragment_crypto_list, container, false)
 
+        recivedData = CryptoListFragmentArgs.fromBundle(requireArguments()).text
         txtTitle = v.findViewById(R.id.txtTitle)
+
+        txtTitle.text = recivedData
         return v
     }
-
-
 
 }
