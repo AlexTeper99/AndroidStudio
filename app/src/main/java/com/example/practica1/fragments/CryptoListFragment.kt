@@ -14,7 +14,7 @@ class CryptoListFragment : Fragment() {
     lateinit var v: View
     private lateinit var txtTitle : TextView
     private lateinit var recivedData : String
-
+    //comentario
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
