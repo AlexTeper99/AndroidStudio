@@ -24,7 +24,7 @@ class CryptoListFragment : Fragment() {
         recivedData = CryptoListFragmentArgs.fromBundle(requireArguments()).text
         txtTitle = v.findViewById(R.id.txtTitle)
 
-        txtTitle.text = recivedData
+        txtTitle.text = "Bienvenido " + recivedData
         return v
     }
 
