@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.practica1.R
 import com.example.practica1.adapters.CriptoAdapter
 import com.example.practica1.entities.Cripto
+import com.google.android.material.snackbar.Snackbar
 
 class CryptoListFragment : Fragment() {
 
@@ -72,7 +73,10 @@ class CryptoListFragment : Fragment() {
         // creo una lista de un elemento abajo de otro
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
-        adapter = CriptoAdapter(criptoList)
+        //EXTRA: Llamo al Adapter mandandole la funcion
+        adapter = CriptoAdapter(criptoList){ pos ->
+            Snackbar.make(v, criptoList[pos].ticker, Snackbar.LENGTH_SHORT).show()
+        }
         recyclerView.adapter = adapter
     }
 
