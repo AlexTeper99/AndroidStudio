@@ -23,4 +23,9 @@
             android:name="text"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.practica1.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>

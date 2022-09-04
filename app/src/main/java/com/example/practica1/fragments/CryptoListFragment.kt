@@ -61,7 +61,6 @@ class CryptoListFragment : Fragment() {
         criptoList.add(Cripto("USDT", "USDT", " "))
         criptoList.add(Cripto("Cardano", "ADA", " "))
 
-
         return v
     }
 
