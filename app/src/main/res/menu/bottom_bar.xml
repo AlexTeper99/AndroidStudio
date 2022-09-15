@@ -6,7 +6,7 @@
         android:title="CryptoList" />
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/home2"
         android:icon="@drawable/ic_launcher_foreground"
         android:title="Home"
         />

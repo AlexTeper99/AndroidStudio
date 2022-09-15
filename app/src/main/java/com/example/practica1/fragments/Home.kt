@@ -20,7 +20,13 @@ class Home : Fragment() {
     ): View? {
         v = inflater.inflate(R.layout.fragment_home, container, false)
         txtHome = v.findViewById(R.id.txtHome)
+
         return v
+    }
+
+    override fun onStart() {
+        super.onStart()
+        txtHome.text = "Aguante las criptomonedas"
     }
 
 
