@@ -40,26 +40,16 @@ class CryptoListFragment : Fragment() {
         txtTitle.text = "Bienvenido " + recivedData
 
         //codigo de la lista
-        criptoList.add(Cripto("Bitcoin", "BTC", " "))
-        criptoList.add(Cripto("Ethereum", "ETH", " "))
-        criptoList.add(Cripto("USDT", "USDT", " "))
-        criptoList.add(Cripto("Cardano", "ADA", " "))
-        criptoList.add(Cripto("Bitcoin", "BTC", " "))
-        criptoList.add(Cripto("Ethereum", "ETH", " "))
-        criptoList.add(Cripto("USDT", "USDT", " "))
-        criptoList.add(Cripto("Cardano", "ADA", " "))
-        criptoList.add(Cripto("Bitcoin", "BTC", " "))
-        criptoList.add(Cripto("Ethereum", "ETH", " "))
-        criptoList.add(Cripto("USDT", "USDT", " "))
-        criptoList.add(Cripto("Cardano", "ADA", " "))
-        criptoList.add(Cripto("Bitcoin", "BTC", " "))
-        criptoList.add(Cripto("Ethereum", "ETH", " "))
-        criptoList.add(Cripto("USDT", "USDT", " "))
-        criptoList.add(Cripto("Cardano", "ADA", " "))
-        criptoList.add(Cripto("Bitcoin", "BTC", " "))
-        criptoList.add(Cripto("Ethereum", "ETH", " "))
-        criptoList.add(Cripto("USDT", "USDT", " "))
-        criptoList.add(Cripto("Cardano", "ADA", " "))
+        criptoList.add(Cripto("Bitcoin", "BTC", "https://www.criptonoticias.com/wp-content/uploads/2021/02/bitcoin-logo-cumple-evolucion.png"))
+        criptoList.add(Cripto("Ethereum", "ETH", "https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Ethereum-Logo-Graphics-13394054-1.jpg "))
+        criptoList.add(Cripto("USDT", "USDT", "https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Tether-Usdt-Logo-Graphics-13393983-1.jpg"))
+        criptoList.add(Cripto("Bitcoin", "BTC", "https://www.criptonoticias.com/wp-content/uploads/2021/02/bitcoin-logo-cumple-evolucion.png"))
+        criptoList.add(Cripto("Ethereum", "ETH", "https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Ethereum-Logo-Graphics-13394054-1.jpg "))
+        criptoList.add(Cripto("USDT", "USDT", "https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Tether-Usdt-Logo-Graphics-13393983-1.jpg"))
+        criptoList.add(Cripto("Bitcoin", "BTC", "https://www.criptonoticias.com/wp-content/uploads/2021/02/bitcoin-logo-cumple-evolucion.png"))
+        criptoList.add(Cripto("Ethereum", "ETH", "https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Ethereum-Logo-Graphics-13394054-1.jpg "))
+        criptoList.add(Cripto("USDT", "USDT", "https://www.creativefabrica.com/wp-content/uploads/2021/06/14/Cryptocurrency-Tether-Usdt-Logo-Graphics-13393983-1.jpg"))
+
 
         return v
     }
